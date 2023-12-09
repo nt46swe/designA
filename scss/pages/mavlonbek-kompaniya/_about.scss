@@ -1,0 +1,89 @@
+.about_section{
+    width: 1240px;
+    height: 1400px;
+    border: $border;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    &-top{
+        height: 15%;
+        width: 100%;
+        border: $border;
+        display: flex;
+        align-items: center;
+
+        &-ul{
+            margin-top: 50px;
+            width: 1240px;
+            height: 149px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            &-li{
+                width: 300px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 290px;
+                    height: 2px;
+                    flex-shrink: 0;
+                }
+                h4{
+                                        color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 105%;
+                    width: 295px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 60px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 295px;
+                }
+            }
+        }
+    }
+    &-center{
+        height: 25%;
+        width: 100%;
+        border: $border;
+        p{
+            color: #3E3E3E;
+font-family: $mont;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 1240px;
+display: flex;
+flex-direction: column;
+column-gap: 300px;
+        }
+    }
+    &-bottom{
+        height: 45%;
+        width: 100%;
+        border: $border;
+        background-image: url(/pages/mavlonbek-kompaniya/img/about_img.png);
+        background-size: cover;
+    }
+}
+
