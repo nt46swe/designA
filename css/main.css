@@ -16,19 +16,16 @@
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  border: 0px solid;
   width: 100%;
 }
 .kompaniya-body .kompaniya-body-header-nav {
   width: 85%;
   height: 10%;
-  border: 0px solid;
   display: flex;
 }
 .kompaniya-body .kompaniya-body-header-nav-logo {
   height: 100%;
   width: 15%;
-  border: 1px solid;
   display: flex;
   align-items: center;
   gap: 85px;
@@ -36,7 +33,6 @@
 .kompaniya-body .kompaniya-body-header-nav-menu {
   height: 100%;
   width: 531.5px;
-  border: 1px solid;
   display: flex;
   align-items: center;
 }
@@ -55,7 +51,6 @@
 .kompaniya-body .kompaniya-body-header-nav-phonenumber {
   height: 100%;
   width: 35%;
-  border: 1px solid;
   display: flex;
   align-items: center;
 }
