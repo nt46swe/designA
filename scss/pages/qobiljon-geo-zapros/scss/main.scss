@@ -1,0 +1,2244 @@
+@import './global';
+
+.section-header{
+    width: 100%;
+    height: 800px;
+    .header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .header-nav{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            .nav-center{
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                &-logo{
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                &-ul{
+                    width: 40%;
+                    height: 100%;
+                    &-ul{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        &-li1{
+                            width: 31%;
+                            height: 100%;
+                            text-decoration: none;
+                            list-style-type: none;
+                        }
+                        &-li{
+                            width: 23%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            list-style-type: none;
+                            &-a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                text-decoration: none;
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                font-family: 'Montserrat', sans-serif;
+                            }
+                        }
+                    }
+                }
+                &-number{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    &-text{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        &-p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-phonenumber{
+                        width: 60%;
+                        height: 100%;
+                        align-items: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                        &-p{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Gilroy;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: normal;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        .phonenumber-span{
+                            color: #FED036;
+                            font-family: Gilroy;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: normal;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                    }
+                }
+                .nav-last{
+                    display: none;
+                }
+            }
+        }
+        .header-bottom{
+            width: 100%;
+            height: 89%;
+            background: #FED036;
+            &-center{
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                &-left{
+                    width: 50%;
+                    height: 80%;
+                    &-top{
+                        width: 100%;
+                        height: 10%;
+                        display: flex;
+                        align-items: center;
+                        &-p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 30px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-center{
+                        width: 100%;
+                        height: 60%;
+                        &-top{
+                            width: 100%;
+                            height: 80%;
+                            display: flex;
+                            align-items: center;
+                            &-p{
+                                color: #FFF;
+                                font-family: Gilroy;
+                                font-size: 60px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: normal;
+                                text-transform: uppercase;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                        }
+                        &-bottom{
+                            width: 26%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                                flex-shrink: 0;
+                            }
+                        }
+                    }
+                    &-bottom{
+                        width: 100%;
+                        height: 30%;
+                        display: flex;
+                        align-items: center;
+                        &-form{
+                            width: 300px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 3px;
+                            background: #FFF;
+                            display: flex;
+                            justify-content: space-between;
+                            border: none;
+                            &-input{
+                                width: 216px;
+                                height: 100%;
+                                flex-shrink: 0;
+                                border: none;
+                            }
+                            .section{
+                                border: none;
+                            }
+                        }
+                        &-btn{
+                            width: 163.665px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 3px;
+                            background: #3C93F0;
+                            border: none;
+                            &-a{
+                                text-decoration: none;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Gilroy;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-family: 'Roboto', sans-serif;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                &-right{
+                    margin-left: 350px;
+                }
+            }
+        }
+    }
+}
+.main-section1{
+    width: 100%;
+    height: 1000px;
+    margin-top: 80px;
+    &-top{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-p1{
+            color: #3E3E3E;
+            text-align: center;
+            font-family: Gilroy;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            font-family: 'Roboto', sans-serif;
+        }
+        &-p2{
+            margin-top: 20px;
+            color: #3E3E3E;
+            text-align: center;
+            font-family: Proxima Nova;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+    }
+    &-bottom{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        justify-content: space-around;
+        &-left{
+            width: 25%;
+            height: 100%;
+            &-top{
+                width: 100%;
+                height: 40%;
+                border-radius: 3px;
+                border: 2px solid #F6F6F6;
+                background: #FFF;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border-radius: 3px;
+                    border: 2px solid #FED036;
+                    background: #FED036;
+                    display: flex;
+                    align-items: center;
+                    .one{
+                        width: 57%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        img{
+                            width: 24px;
+                            height: 24px;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            color: #3E3E3E;
+                            font-family: Gilroy;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 70%;
+            height: 100%;
+            border: 1px solid;
+            .imap{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+            &-img1{
+                position: absolute;
+                left: 50%;
+                top: 5%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.section2{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    &-center{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .section2-top{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            .section2-top-left{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    color: #3E3E3E;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+            .section2-top-right{
+                width: 20%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                .section2-top-right-btn{
+                    width: 50%;
+                    height: 80%;
+                    border-radius: 3px;
+                    background: #3C93F0;
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+        .section2-bottom{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: space-between;
+            .section2-bottom-section{
+                width: 23%;
+                height: 100%;
+                border-radius: 3px;
+                background: #FFF;
+                &-top{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-between;
+                    &-left{
+                        width: 20%;
+                        height: 100%;
+                        border-radius: 3px;
+                        background: #FED036;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;    
+                    }
+                    &-right{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        align-items: end;
+                        justify-content: center;
+                        flex-direction: column;
+                        &-p1{
+                           color: #878787;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        &-p2{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &-center{
+                    width: 100%;
+                    height: 60%;
+                    display: flex;
+                    justify-content: space-between;
+                    &-left{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-top: 50px;
+                        &-p{
+                            color: #878787;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-right{
+                        margin-top: 50px;
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: end;
+                        .section2-bottom-seciton-center-right-p{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 25%;
+                    display: flex;
+                    align-items: center;
+                    &-left{
+                        width: 20%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                    &-right{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        &-p{
+                            color: #878787;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        &-p1{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section3{
+    width: 100%;
+    height: 1000px;
+    margin-top: 150px;
+    .section-3-center{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        .section3-center-top{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;align-items: center;
+            .section3-center-top-p1{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                font-family: 'Roboto', sans-serif;
+            }
+            .section3-center-top-p2{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Proxima Nova;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            img{
+                width: 62px;
+                height: 62px;
+            }
+        }
+        .section3-center-center{
+            width: 100%;
+            height: 45%;
+            .section3-center-center-section{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #F1F1F1;
+                background: #FFF;
+                .section-left{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section-center{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section-bottom{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    .section-bottom-left{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            color: #3E3E3E;
+                            text-align: center;
+                            font-family: Proxima Nova;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    .section-bottom-right{
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-around;
+                        img{
+                            width: 25px;
+                            height: 25px;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            color: #3C93F0;
+                            text-align: center;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        .section3-center-bottom{
+            width: 100%;
+            height: 10%;
+            margin-top: 30px;   
+            display: flex;
+            justify-content: space-between;
+            .section3-section{
+                width: 30%;
+                height: 100%;
+                border: 1px dashed #3C93F0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .section3-section-left{
+                    width: 35%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 15px;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section3-section-right{
+                    width: 35%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: 15px;
+                    img{
+                        width: 25px;
+                        height: 25px;
+                        flex-shrink: 0;
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .section-header{
+        width: 100%;
+        height: 750px;
+    .header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .header-nav{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            .nav-center{
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                &-logo{
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                &-ul{
+                    width: 40%;
+                    height: 100%;
+                    display: none;
+                    &-ul{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        &-li1{
+                            width: 31%;
+                            height: 100%;
+                            text-decoration: none;
+                            list-style-type: none;
+                        }
+                        &-li{
+                            width: 23%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            list-style-type: none;
+                            &-a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                text-decoration: none;
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                font-family: 'Montserrat', sans-serif;
+                            }
+                        }
+                    }
+                }
+                &-number{
+                    width: 40%;
+                    height: 100%;
+                    display: none;
+                    &-text{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        &-p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-phonenumber{
+                        width: 60%;
+                        height: 100%;
+                        align-items: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                        &-p{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Gilroy;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: normal;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        .phonenumber-span{
+                            color: #FED036;
+                            font-family: Gilroy;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: normal;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                    }
+                }
+                .nav-last{
+                    display: flex;
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                }
+            }
+        }
+        .header-bottom{
+            width: 100%;
+            height: 89%;
+            background: #FED036;
+            &-center{
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                &-left{
+                    width: 55%;
+                    height: 80%;
+                    &-top{
+                        width: 100%;
+                        height: 10%;
+                        display: flex;
+                        align-items: center;
+                        &-p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-center{
+                        width: 100%;
+                        height: 40%;
+                        margin-top: 20px;
+                        &-top{
+                            width: 100%;
+                            height: 80%;
+                            display: flex;
+                            align-items: center;
+                            &-p{
+                                color: #FFF;
+                                font-family: Gilroy;
+                                font-size: 32px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: normal;
+                                text-transform: uppercase;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                        }
+                        &-bottom{
+                            width: 60%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                                flex-shrink: 0;
+                            }
+                            p{
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                    &-bottom{
+                        width: 100%;
+                        height: 30%;
+                        display: flex;
+                        align-items: center;
+                        &-form{
+                            width: 200px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 3px;
+                            background: #FFF;
+                            display: flex;
+                            justify-content: space-between;
+                            border: none;
+                            &-input{
+                                width: 216px;
+                                height: 100%;
+                                flex-shrink: 0;
+                                border: none;
+                            }
+                            .section{
+                                border: none;
+                            }
+                        }
+                        &-btn{
+                            width: 163.665px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 3px;
+                            background: #3C93F0;
+                            border: none;
+                            &-a{
+                                text-decoration: none;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Gilroy;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-family: 'Roboto', sans-serif;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                &-right{
+                    margin-left: 50px;
+                    img{
+                        width: 290px;
+                        height: 409px;
+                        flex-shrink: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.main-section1{
+    width: 100%;
+    height: 1000px;
+    margin-top: 80px;
+    &-top{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-p1{
+            color: #3E3E3E;
+            text-align: center;
+            font-family: Gilroy;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            font-family: 'Roboto', sans-serif;
+        }
+        &-p2{
+            margin-top: 20px;
+            color: #3E3E3E;
+            text-align: center;
+            font-family: Proxima Nova;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+    }
+    &-bottom{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        justify-content: space-around;
+        &-left{
+            width: 25%;
+            height: 100%;
+            &-top{
+                width: 100%;
+                height: 40%;
+                border-radius: 3px;
+                border: 2px solid #F6F6F6;
+                background: #FFF;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border-radius: 3px;
+                    border: 2px solid #FED036;
+                    background: #FED036;
+                    display: flex;
+                    align-items: center;
+                    .one{
+                        width: 57%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        img{
+                            width: 24px;
+                            height: 24px;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            color: #3E3E3E;
+                            font-family: Gilroy;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 70%;
+            height: 100%;
+            border: 1px solid;
+            .imap{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+            &-img1{
+                position: absolute;
+                left: 50%;
+                top: 5%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.section2{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    &-center{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .section2-top{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            .section2-top-left{
+                width: 70%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    color: #3E3E3E;
+                    font-family: Gilroy;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+            .section2-top-right{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                .section2-top-right-btn{
+                    width: 50%;
+                    height: 80%;
+                    border-radius: 3px;
+                    background: #3C93F0;
+                    border: none;
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+        .section2-bottom{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: space-between;
+            .section2-bottom-section{
+               width: 300px;
+                height: 270px;
+                flex-shrink: 0;
+                border-radius: 3px;
+                background: #FFF;
+                margin-left: 50px;
+                &-top{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-between;
+                    &-left{
+                        width: 20%;
+                        height: 100%;
+                        border-radius: 3px;
+                        background: #FED036;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;    
+                    }
+                    &-right{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        align-items: end;
+                        justify-content: center;
+                        flex-direction: column;
+                        &-p1{
+                           color: #878787;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        &-p2{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &-center{
+                    width: 100%;
+                    height: 60%;
+                    display: flex;
+                    justify-content: space-between;
+                    &-left{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-top: 50px;
+                        &-p{
+                            color: #878787;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-right{
+                        margin-top: 50px;
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: end;
+                        .section2-bottom-seciton-center-right-p{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 25%;
+                    display: flex;
+                    align-items: center;
+                    &-left{
+                        width: 20%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                    &-right{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        &-p{
+                            color: #878787;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        &-p1{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section3{
+    width: 100%;
+    height: 1000px;
+    margin-top: 150px;
+    .section-3-center{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        .section3-center-top{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;align-items: center;
+            .section3-center-top-p1{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                font-family: 'Roboto', sans-serif;
+            }
+            .section3-center-top-p2{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Proxima Nova;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            img{
+                width: 62px;
+                height: 62px;
+            }
+        }
+        .section3-center-center{
+            width: 100%;
+            height: 45%;
+            .section3-center-center-section{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #F1F1F1;
+                background: #FFF;
+                .section-left{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section-center{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section-bottom{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    .section-bottom-left{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    .section-bottom-right{
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-around;
+                        img{
+                            width: 25px;
+                            height: 25px;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            color: #3C93F0;
+                            text-align: center;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        .section3-center-bottom{
+            width: 100%;
+            height: 10%;
+            margin-top: 30px;   
+            display: flex;
+            justify-content: space-between;
+            .section3-section{
+                width: 30%;
+                height: 100%;
+                border: 1px dashed #3C93F0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .section3-section-left{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 15px;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section3-section-right{
+                    width: 35%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: 15px;
+                    img{
+                        width: 10px;
+                        height: 10px;
+                        flex-shrink: 0;
+                        flex-shrink: 0;
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+
+@media screen and (max-width: 400px){
+    .section-header{
+        width: 100%;
+        height: 750px;
+    .header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .header-nav{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            .nav-center{
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                &-logo{
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+                &-ul{
+                    width: 40%;
+                    height: 100%;
+                    display: none;
+                    &-ul{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        &-li1{
+                            width: 31%;
+                            height: 100%;
+                            text-decoration: none;
+                            list-style-type: none;
+                        }
+                        &-li{
+                            width: 23%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            list-style-type: none;
+                            &-a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                text-decoration: none;
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                font-family: 'Montserrat', sans-serif;
+                            }
+                        }
+                    }
+                }
+                &-number{
+                    width: 40%;
+                    height: 100%;
+                    display: none;
+                    &-text{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        &-p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-phonenumber{
+                        width: 60%;
+                        height: 100%;
+                        align-items: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                        &-p{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Gilroy;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: normal;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        .phonenumber-span{
+                            color: #FED036;
+                            font-family: Gilroy;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: normal;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                    }
+                }
+                .nav-last{
+                    display: flex;
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                }
+            }
+        }
+        .header-bottom{
+            width: 100%;
+            height: 89%;
+            background: #FED036;
+            flex-direction: column;
+            justify-content: center;
+            &-center{
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &-left{
+                    width: 55%;
+                    height: 80%;
+                    &-top{
+                        width: 100%;
+                        height: 10%;
+                        display: flex;
+                        align-items: center;
+                        display: none;
+                        &-p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-center{
+                        width: 100%;
+                        height: 40%;
+                        margin-top: 20px;
+                        &-top{
+                            width: 100%;
+                            height: 80%;
+                            display: flex;
+                            align-items: center;
+                            &-p{
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Gilroy;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: normal;
+                                text-transform: uppercase;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                        }
+                        &-bottom{
+                            width: 60%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            img{
+                                width: 23px;
+                                height: 23px;
+                                flex-shrink: 0;
+                            }
+                            p{
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                    &-bottom{
+                        width: 100%;
+                        height: 30%;
+                        display: flex;
+                        align-items: center;
+                        &-form{
+                            width: 200px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 3px;
+                            background: #FFF;
+                            display: flex;
+                            justify-content: space-between;
+                            border: none;
+                            &-input{
+                                width: 216px;
+                                height: 100%;
+                                flex-shrink: 0;
+                                border: none;
+                            }
+                            .section{
+                                border: none;
+                            }
+                        }
+                        &-btn{
+                            width: 163.665px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 3px;
+                            background: #3C93F0;
+                            border: none;
+                            &-a{
+                                text-decoration: none;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Gilroy;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-family: 'Roboto', sans-serif;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                &-right{
+                    margin-left: 50px;
+                    img{
+                        width: 290px;
+                        height: 409px;
+                        flex-shrink: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.main-section1{
+    width: 100%;
+    height: 1000px;
+    margin-top: 80px;
+    &-top{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-p1{
+            color: #3E3E3E;
+            text-align: center;
+            font-family: Gilroy;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            font-family: 'Roboto', sans-serif;
+        }
+        &-p2{
+            margin-top: 20px;
+            color: #3E3E3E;
+            text-align: center;
+            font-family: Proxima Nova;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+    }
+    &-bottom{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        justify-content: space-around;
+        &-left{
+            width: 25%;
+            height: 100%;
+            &-top{
+                width: 100%;
+                height: 40%;
+                border-radius: 3px;
+                border: 2px solid #F6F6F6;
+                background: #FFF;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border-radius: 3px;
+                    border: 2px solid #FED036;
+                    background: #FED036;
+                    display: flex;
+                    align-items: center;
+                    .one{
+                        width: 57%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        img{
+                            width: 24px;
+                            height: 24px;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            color: #3E3E3E;
+                            font-family: Gilroy;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 70%;
+            height: 100%;
+            border: 1px solid;
+            .imap{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+            &-img1{
+                position: absolute;
+                left: 50%;
+                top: 5%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+.section2{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    &-center{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .section2-top{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            .section2-top-left{
+                width: 70%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    color: #3E3E3E;
+                    font-family: Gilroy;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+            .section2-top-right{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                .section2-top-right-btn{
+                    width: 50%;
+                    height: 80%;
+                    border-radius: 3px;
+                    background: #3C93F0;
+                    border: none;
+                    a{
+                        text-decoration: none;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+        .section2-bottom{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: space-between;
+            .section2-bottom-section{
+               width: 300px;
+                height: 270px;
+                flex-shrink: 0;
+                border-radius: 3px;
+                background: #FFF;
+                margin-left: 50px;
+                &-top{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-between;
+                    &-left{
+                        width: 20%;
+                        height: 100%;
+                        border-radius: 3px;
+                        background: #FED036;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;    
+                    }
+                    &-right{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        align-items: end;
+                        justify-content: center;
+                        flex-direction: column;
+                        &-p1{
+                           color: #878787;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        &-p2{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &-center{
+                    width: 100%;
+                    height: 60%;
+                    display: flex;
+                    justify-content: space-between;
+                    &-left{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        margin-top: 50px;
+                        &-p{
+                            color: #878787;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &-right{
+                        margin-top: 50px;
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: end;
+                        .section2-bottom-seciton-center-right-p{
+                            color: #3E3E3E;
+                            text-align: right;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 25%;
+                    display: flex;
+                    align-items: center;
+                    &-left{
+                        width: 20%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                    &-right{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        &-p{
+                            color: #878787;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        &-p1{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section3{
+    width: 100%;
+    height: 1000px;
+    margin-top: 150px;
+    .section-3-center{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        .section3-center-top{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;align-items: center;
+            .section3-center-top-p1{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                font-family: 'Roboto', sans-serif;
+            }
+            .section3-center-top-p2{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Proxima Nova;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            img{
+                width: 62px;
+                height: 62px;
+            }
+        }
+        .section3-center-center{
+            width: 100%;
+            height: 45%;
+            .section3-center-center-section{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #F1F1F1;
+                background: #FFF;
+                .section-left{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section-center{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section-bottom{
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    .section-bottom-left{
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            color: #3E3E3E;
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    .section-bottom-right{
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-around;
+                        img{
+                            width: 25px;
+                            height: 25px;
+                            flex-shrink: 0;
+                        }
+                        p{
+                            color: #3C93F0;
+                            text-align: center;
+                            font-family: Proxima Nova;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        .section3-center-bottom{
+            width: 100%;
+            height: 10%;
+            margin-top: 30px;   
+            display: flex;
+            justify-content: space-between;
+            .section3-section{
+                width: 30%;
+                height: 100%;
+                border: 1px dashed #3C93F0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .section3-section-left{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 15px;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .section3-section-right{
+                    width: 35%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: 15px;
+                    img{
+                        width: 10px;
+                        height: 10px;
+                        flex-shrink: 0;
+                        flex-shrink: 0;
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+}
