@@ -1,4 +1,41 @@
-h1{
-    width: 10px;
-    height: 10px;
+@import'./header.scss';
+@import'./section-chem.scss';
+@import'./section-master.scss';
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-container{
+    width: 1440px;
+    height: 4892px;
+    top: -654px;
+    left: 3197px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .big-container{
+        width: 100%;
+        height: 3184px;
+        top: -654px;
+        left: 5861px;
+        border: 1px solid;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .big-container{
+        width: 100%;
+        height: 5089px;
+        top: -654px;
+        left: 7204px;
+        border: 1px solid;       
+    }
 }
