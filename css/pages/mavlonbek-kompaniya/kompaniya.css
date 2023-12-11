@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *    ,
+ * 39 |                     font-family: $mont;
+ *    |                                  ^^^^^
+ *    '
+ *   scss/pages/mavlonbek-kompaniya/_header.scss 39:34  @import
+ *   scss/pages/mavlonbek-kompaniya/kompaniya.scss 1:8  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 39 \2502                      font-family: $mont;\a    \2502                                   ^^^^^\a    \2575 \a   scss/pages/mavlonbek-kompaniya/_header.scss 39:34  @import\a   scss/pages/mavlonbek-kompaniya/kompaniya.scss 1:8  root stylesheet";
+}
