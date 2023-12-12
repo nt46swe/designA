@@ -59,6 +59,123 @@
                     width: 295px;
                 }
             }
+
+            &-li2{
+                width: 300px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 290px;
+                    height: 2px;
+                    flex-shrink: 0;
+                }
+                h4{
+                                        color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 105%;
+                    width: 295px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 60px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 295px;
+                }
+            }
+
+            &-li3{
+                width: 300px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 290px;
+                    height: 2px;
+                    flex-shrink: 0;
+                }
+                h4{
+                                        color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 105%;
+                    width: 295px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 60px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 295px;
+                }
+            }
+
+            &-li4{
+                width: 300px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 290px;
+                    height: 2px;
+                    flex-shrink: 0;
+                }
+                h4{
+                                        color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 105%;
+                    width: 295px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 60px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 295px;
+                }
+            }
         }
     }
     &-center{
@@ -86,4 +203,438 @@ column-gap: 300px;
         background-size: cover;
     }
 }
+@media screen and (max-width: 900px){
+    .about_section{
+        width: 100%;
+        height: 1100px;
+        border: $border;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    .about_section-top{
+        height: 15%;
+        width: 720px;
+        border: $border;
+        display: flex;
+        align-items: center;
 
+        .about_section-top-ul{
+            margin-top: 20px;
+            width: 700px;
+            height: 149px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            &-li{
+                width: 200px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 150px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    gap: 20px;
+                }
+                h4{
+                    color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 10px;
+                    width: 155px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 30px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                                    width: 165px;
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 165px;
+                }
+            }
+
+            &-li2{
+                width: 200px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 150px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    gap: 20px;
+                }
+                h4{
+                    color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 10px;
+                    width: 155px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 30px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                                    width: 165px;
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 165px;
+                }
+            }
+
+            &-li3{
+                width: 200px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 150px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    gap: 20px;
+                }
+                h4{
+                    color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 10px;
+                    width: 155px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 30px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                                    width: 165px;
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 165px;
+                }
+            }
+
+            &-li4{
+                width: 200px;
+                height: 100px;
+                
+                .line{
+                    border-radius: 1px;
+                    background: #3C93F0;
+                    width: 150px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    gap: 20px;
+                }
+                h4{
+                    color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 10px;
+                    width: 155px;
+                    span{
+                                        color: #3E3E3E;
+                                    font-family: $roboto;
+                                    font-size: 30px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 105%; /* 63px */
+                                    width: 165px;
+                    }
+                }
+                p{
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 165px;
+                }
+            }
+        }
+    }
+    &-center{
+        height: 25%;
+        width: 100%;
+        border: $border;
+        p{
+            color: #3E3E3E;
+            font-family: $mont;
+            font-size: 15.5px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 688px;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+    &-bottom{
+        padding-top: 200px;
+        height: 35%;
+        width: 100%;
+        border: $border;
+        background-image: url(/designA/pages/mavlonbek-kompaniya/img/about_img.png);
+        background-size: cover;
+      
+    }
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .about_section{
+        width: 420px;
+        height: 1000px;
+        border: $border;
+        display: flex;
+        flex-direction: column;
+      
+        .about_section-top{
+            height: 15%;
+            width: 420px;
+            border: $border;
+            display: flex;
+            align-items: center;
+    
+            .about_section-top-ul{
+                margin-top: 20px;
+                width: 400px;
+                height: 149px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                &-li{
+                    width: 100px;
+                    height: 100px;
+                    
+                    .line{
+                        border-radius: 1px;
+                        background: #3C93F0;
+                        width: 120px;
+                        height: 2px;
+                        flex-shrink: 0;
+                        gap: 20px;
+                    }
+                    h4{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 10px;
+                        width: 155px;
+                        span{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 105%; /* 63px */
+                        width: 165px;
+                        }
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: $mont;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 185px;
+                    }
+                }
+                &-li2{
+                    width: 200px;
+                    height: 100px;
+                    
+                    .line{
+                        border-radius: 1px;
+                     background: #3C93F0;
+                        width: 150px;
+                        height: 2px;
+                        flex-shrink: 0;
+                        gap: 20px;
+                    }
+                    h4{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 10px;
+                        width: 155px;
+                        span{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 105%; /* 63px */
+                        width: 165px;
+                        }
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: $mont;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 165px;
+                    }
+                }
+                &-li3{
+                    width: 200px;
+                    height: 100px;
+                    display: none;
+                    
+                    .line{
+                        border-radius: 1px;
+                        background: #3C93F0;
+                        width: 150px;
+                        height: 2px;
+                        flex-shrink: 0;
+                        gap: 20px;
+                    }
+                    h4{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 10px;
+                        width: 155px;
+                        span{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 105%; /* 63px */
+                        width: 165px;
+                        }
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: $mont;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 165px;
+                    }
+                }
+                &-li4{
+                    width: 200px;
+                    height: 100px;
+                    display: none;
+                    
+                    .line{
+                        border-radius: 1px;
+                        background: #3C93F0;
+                        width: 150px;
+                        height: 2px;
+                        flex-shrink: 0;
+                        gap: 20px;
+                    }
+                    h4{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 10px;
+                        width: 155px;
+                        span{
+                        color: #3E3E3E;
+                        font-family: $roboto;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 105%; /* 63px */
+                        width: 165px;
+                        }
+                    }
+                    p{
+                        color: #3E3E3E;
+                        font-family: $mont;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 165px;
+                    }
+                }
+            }
+        }
+
+        &-center{
+            height: 45%;
+            width: 100%;
+            border: $border;
+            p{
+                color: #3E3E3E;
+                font-family: $mont;
+                font-size: 15.5px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 355px;
+                // display: flex;
+                // flex-direction: column;
+    
+            }
+        }
+
+        &-bottom{
+            // padding-top: 200px;
+            width: 100%;
+            height: 100px;
+            border: $border;
+            background-image: url(/designA/pages/mavlonbek-kompaniya/img/mobile-about-img.png);
+            background-size: cover;
+        
+                }
+}
+}

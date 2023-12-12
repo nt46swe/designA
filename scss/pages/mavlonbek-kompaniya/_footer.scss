@@ -1,0 +1,84 @@
+footer{
+    width: 1450px;
+    height: 350px;
+    border: $border;
+    background-color: #3E3E3E;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    img{
+        position: absolute;
+        top: 32%;
+        left: 43%;
+    }
+    h1{
+                    color: #FED036;
+            font-family: $roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            width: 295px;
+            span{
+                color: #FFF;
+            text-align: center;
+            font-family: $roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            width: 295px;
+            }
+    }
+    p{
+        color: #FED036;
+font-family: $mont;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+    }
+    h4{
+        color: #FFF;
+text-align: center;
+font-family: $mont;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    h5{
+        color: #FED036;
+text-align: center;
+font-family: $mont;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+    }
+    h3{
+        color: #FFF;
+        text-align: center;
+        font-family: $mont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    h6{
+        color: #EDF3F6;
+text-align: center;
+font-family: $mont;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.6;
+width: 683px;
+    }
+}

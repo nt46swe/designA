@@ -1,0 +1,159 @@
+.certificates-section{
+    width: 1440px;
+    height: 700px;
+    border: $border;
+    .certificates-section-text{
+        width: 1300px;
+        height: 45%;
+        border: $border;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        h3{
+            width: 1240px;
+            color: #3E3E3E;
+text-align: center;
+font-family: $roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+        p{
+            width: 1240px;
+            color: #3E3E3E;
+text-align: center;
+font-family: $mont;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+    }
+    .certificates-section-img{
+        width: 1300px;
+        height: 55%;
+        border: $border;
+        display: flex;
+        gap: 20px;
+        img{
+            border-radius: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .certificates-section{
+        width: 100%;
+        height: 600px;
+        border: $border;
+        display: flex;
+        flex-direction: column;
+        // gap: 100px;
+        .certificates-section-text{
+            width: 850px;
+            height: 60%;
+            border: $border;
+            // display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+            h3{
+                margin-top: 17%;
+                width: 688px;
+                color: #3E3E3E;
+                text-align: center;
+                font-family: $roboto;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            p{
+               
+                width: 688px;
+                color: #3E3E3E;
+                text-align: center;
+                font-family: $mont;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .certificates-section-img{
+            width: 850px;
+            height: 40%;
+            border: $border;
+            display: flex;
+            gap: 4px;
+            img{
+                border-radius: 4px;
+                width: 184px;
+height: 236px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .certificates-section{
+        width: 100%;
+        height: 700px;
+        border: $border;
+        display: flex;
+        flex-direction: column;
+        .certificates-section-text{
+            width: 400px;
+            height: 40%;
+            border: $border;
+            // display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+            h3{
+                // margin-top: 17%;
+                width: 355px;
+                color: #3E3E3E;
+                text-align: center;
+                font-family: $roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            p{
+               
+                width: 355px;
+                color: #3E3E3E;
+                text-align: center;
+                font-family: $mont;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .certificates-section-img{
+            width: 420px;
+            height: 70%;
+            border: $border;
+            display: flex;
+            gap: 4px;
+            border-radius: 3px;
+background: url(../../../pages/mavlonbek-kompaniya/img/Certificate\_\(2\).png), lightgray 50% / cover no-repeat;
+
+            img{
+                display: none;
+            }
+            
+        }
+    }
+}

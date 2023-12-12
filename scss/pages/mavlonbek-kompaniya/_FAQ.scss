@@ -1,0 +1,228 @@
+.Faq-section{
+    width: 1400px;
+    height: 1200px;
+    border: $border;
+    display: flex;
+    flex-direction: column;
+    .Faq-section-top{
+        width: 90%;
+        height: 24%;
+        border: $border;
+       display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        gap: 20px;
+        h3{
+            margin-top: 5%;
+            width: 1240px;
+            color: #3E3E3E;
+            text-align: center;
+            font-family: $roboto;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        p{
+            color: #3E3E3E;
+            text-align: center;
+            font-family: $mont;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 1240px;
+        }
+        svg{
+            text-align: center;
+            margin-left: 45%;
+        }
+    }
+    .Faq-section-center{
+        width: 90%;
+        height: 50%;
+        border: $border;
+        display: flex;
+    &-faq{
+        width: 65%;
+        border: $border;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        position: relative;
+        h3{
+            color: #3E3E3E;
+            font-family: $roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            width: 370px;
+            margin-left: 0%;
+        }
+        p{
+            color: #3E3E3E;
+            font-family: $mont;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 760px;
+            margin-left: 0%;
+        }
+        .Vector1{
+            position: absolute;
+            top: 0%;
+            right: 3%;
+        }
+        .Vector2{
+            position: absolute;
+            top: 15%;
+            right: 3%;
+        }
+        .Vector3{
+            position: absolute;
+            top: 34%;
+            right: 3%;
+        }
+        .Vector4{
+            position: absolute;
+            top: 50%;
+            right: 3%;
+        }
+        .Vector5{
+            position: absolute;
+            top: 65%;
+            right: 3%;
+        }
+        .Vector6{
+            position: absolute;
+            top: 83%;
+            right: 3%;
+        }
+
+    }
+    .Faq-section-center-img{
+        width: 35%;
+        border: $border;
+        height: 100%;
+        background-image: url(/designA/pages/mavlonbek-kompaniya/img/master-gift.png);
+        background-size: cover;
+        width: 342.564px;
+height: 535px;
+flex-shrink: 0;
+
+    }
+    }
+    .Faq-section-bottom{
+        width: 90%;
+        height: 30%;
+        border: $border;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .Faq-section-bottom-payment{
+            width: 30%;
+            height: 60%;
+            border:$border;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border-radius: 3px;
+            background: #EDF3F6;
+            &-top{
+                width: 80%;
+                height: 20%;
+                border: $border;
+                display: flex;
+                align-items: center;
+                h4{
+                    color: #3E3E3E;
+                    font-family: $roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    width: 344.304px;
+                    margin-left: -15px;
+                }
+            }
+            &-center{
+                width: 80%;
+                height: 40%;
+                border: $border;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                .nalichi{
+                    display: flex;
+                    width: 123.544px;
+                    height: 40px;
+                    padding: 8px 14.544px 8px 10px;
+                    align-items: center;
+                    gap: 8px;
+                    flex-shrink: 0;
+                    border-radius: 3px;
+                    background: #FFF;
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    border: none;
+                    text-align: center;
+                }
+                .perevod{
+                    display: flex;
+                    width: 205.57px;
+                    height: 40px;
+                    padding: 8px 16.57px 8px 10px;
+                    align-items: center;
+                    gap: 8px;
+                    flex-shrink: 0;
+                    border-radius: 3px;
+                    background: #FFF;
+                    color: #3E3E3E;
+                    font-family: $mont;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    border: none;
+                    text-align: center;
+                }
+            }
+            &-bottom{
+                width: 90%;
+                height: 40%;
+                border: $border;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                img{
+                    width: 97.342px;
+height: 35px;
+flex-shrink: 0;
+                }
+            }
+        }
+        .Faq-section-bottom-order{
+            width: 70%;
+            height: 60%;
+            border:$border;
+            display: flex;
+            border-radius: 3px;
+background: #FED036;
+background-image: url(/designA/pages/mavlonbek-kompaniya/img/order.png);
+background-size: cover;
+        }
+    }
+}
