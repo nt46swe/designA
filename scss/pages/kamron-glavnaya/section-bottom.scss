@@ -1,0 +1,84 @@
+.section-bottom{
+    width: 1440px;
+    height: 562px;
+    top: 2722px;
+    left: -1px;
+    .section-bottom__img_container{
+        width: 1440px;
+        height: 460px;
+        padding: 0px, 100px, 0px, 100px;
+        gap: 20px;
+        .img1{
+            width: 1240px;
+            height: 140px;
+            gap: 20px;
+            margin-left: 100px;
+            margin-bottom: 16px;            
+        }      
+    }
+    .section-bottom__button_icon-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1237px;
+        height: 72px;
+        top: 490px;
+        left: 103px;
+        margin-left: 100px;
+         margin-top: 20px;
+        a{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 241px;
+            height: 50px;
+            top: 12px;
+            padding: 18px, 38px, 16px, 41px;
+            border-radius: 3px;
+            gap: 10px;
+            background: #3C93F0;
+            transition: 0.3s;
+            
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FFFFFF;            
+        }
+        a:hover{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 241px;
+            height: 50px;
+            top: 12px;
+            padding: 18px, 38px, 16px, 41px;
+            border-radius: 3px;
+            gap: 10px;
+            background: rgb(112, 112, 112);
+            
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FFFFFF;       
+        }
+        .icons__container{
+            display: flex;
+            justify-content: space-between;
+            width: 580px;
+            height: 72px;
+            .icon__container{
+                width: 280px;
+                height: 72px;
+                left: 657px;          
+            }
+        }
+    }
+}

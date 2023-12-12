@@ -1,0 +1,84 @@
+.section-bottom1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 200px;
+    top: 251px;
+    padding: 0px, 100px, 0px, 100px;
+    gap: 20px;
+    column-gap: 20px;
+    .section-bottom1__container1{
+        width: 400px;
+        height: 200px;
+        background: #FFFFFF;
+        .section-bottom1__h2{
+            width: 232px;
+            height: 24px;
+            top: 22px;
+            left: 24px;
+            margin-left: 20px;
+            margin-top: 20px;
+            h2{
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #3E3E3E;                
+            }            
+        }
+        .section-bottom__bottom{
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 400px;
+            height: 141px;
+            border-radius: 3px;
+            background: #EDF3F6;
+            margin-top: 13px;
+            .div{
+                width: 5px;
+                height: 35px;
+                top: 99px;
+                left: 24px;
+                border-radius: 1px;
+                background: #09D743;
+                margin-left: 20px;
+                margin-bottom: 40px;              
+            }
+            .section-bottom__bottom_p{
+                width: 189.3px;
+                height: 81.38px;
+                top: 95px;
+                left: 42px;
+                margin-left: 10px;
+                p{
+                    font-family: 'Ibarra Real Nova', serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #3E3E3E;                    
+                }             
+            }
+            .bottom-bottom__img{
+                position: absolute;
+                width: 121.39px;
+                height: 184.72px;
+                bottom: 6px;
+                left: 255.61px;                
+            }
+        }
+        .bottom-bottom__img1{
+            position: absolute;
+            width: 140px;
+            height: 138px;
+            bottom: 25px;
+            left: 244px;            
+        }
+
+    }  
+}
