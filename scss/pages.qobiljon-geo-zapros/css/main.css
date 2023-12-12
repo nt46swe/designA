@@ -884,11 +884,13 @@
 .section-5 {
   width: 100%;
   height: 770px;
+  border: 1px solid;
   margin-top: 156px;
 }
 .section-5 .section5-center {
   width: 90%;
   height: 100%;
+  border: 1px solid;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -897,6 +899,7 @@
 .section-5 .section5-center .section5-center-top {
   width: 100%;
   height: 25%;
+  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -933,7 +936,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .section-5 .section5-center .section5-center-bottom .section5-center-bottom-left .section5-center-bottom-left-section {
   width: 100%;
@@ -983,36 +985,8 @@
 .section-5 .section5-center .section5-center-bottom .section5-center-bottom-left .section5-center-bottom-left-section2 {
   width: 100%;
   height: 20%;
-  border-radius: 3px;
-  border: 1px solid #EDF3F6;
+  border: 1px solid;
   display: flex;
-  padding-left: 22px;
-  padding-top: 30px;
-}
-.section-5 .section5-center .section5-center-bottom .section5-center-bottom-left .section5-center-bottom-left-section2 .section5-center-bottom-left-section2-left {
-  width: 5%;
-  height: 50%;
-}
-.section-5 .section5-center .section5-center-bottom .section5-center-bottom-left .section5-center-bottom-left-section2 .section5-center-bottom-left-section2-left p {
-  color: #3E3E3E;
-  font-family: Gilroy;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  font-family: "Roboto", sans-serif;
-}
-.section-5 .section5-center .section5-center-bottom .section5-center-bottom-left .section5-center-bottom-left-section2 .section5-center-bottom-left-section2-right {
-  width: 50%;
-  height: 50%;
-}
-.section-5 .section5-center .section5-center-bottom .section5-center-bottom-left .section5-center-bottom-left-section2 .section5-center-bottom-left-section2-right p {
-  color: #3E3E3E;
-  font-family: Gilroy;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 .section-5 .section5-center .section5-center-bottom .section5-center-bottom-right {
   position: relative;
@@ -1052,159 +1026,6 @@
   font-weight: 400;
   line-height: 26px; /* 144.444% */
   font-family: "Roboto", sans-serif;
-}
-
-.section6 {
-  width: 100%;
-  height: 1000px;
-  border: 1px solid;
-  margin-top: 100px;
-}
-.section6 .section6-center {
-  width: 90%;
-  height: 100%;
-  border: 1px solid;
-  margin: 0 auto;
-}
-.section6 .section6-center .section6-top {
-  width: 100%;
-  height: 25%;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.section6 .section6-center .section6-top .section6-top-p1 {
-  color: #3E3E3E;
-  text-align: center;
-  font-family: Gilroy;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  font-family: "Roboto" sans-serif;
-}
-.section6 .section6-center .section6-top .section6-top-p2 {
-  color: #3E3E3E;
-  text-align: center;
-  font-family: Proxima Nova;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-family: "Montserrat", sans-serif;
-}
-.section6 .section6-center .section6-center {
-  width: 100%;
-  height: 30%;
-  border: 1px solid;
-  display: flex;
-  justify-content: space-between;
-}
-.section6 .section6-center .section6-center .section6-center-left {
-  width: 60%;
-  height: 100%;
-  border: 1px solid;
-  border-radius: 3px;
-  border: 1px solid #F1F1F1;
-  background: #EDF3F6;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left {
-  width: 70%;
-  height: 100%;
-  border: 1px solid;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-top {
-  padding-left: 30px;
-  width: 100%;
-  height: 30%;
-  border: 1px solid;
-  display: flex;
-  align-items: center;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-top img {
-  width: 5px;
-  height: 35px;
-  flex-shrink: 0;
-  border-radius: 1px;
-  background: #09D743;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-top .section6-center-left-left-top-p {
-  color: #3E3E3E;
-  font-family: Proxima Nova;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 15px;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-top .section6-center-left-left-top-p .section6-center-left-left-top-p-span {
-  color: #3E3E3E;
-  font-family: Proxima Nova;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-family: "Montserrat", sans-serif;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-center {
-  padding-left: 30px;
-  width: 100%;
-  height: 40%;
-  border: 1px solid;
-  display: flex;
-  align-items: center;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-center .section6-center-left-left-center-input {
-  width: 280px;
-  height: 50px;
-  border: none;
-  padding-left: 20px;
-  color: #3E3E3E;
-  font-family: Proxima Nova;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-family: "Montserrat", sans-serif;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-center .section6-center-left-left-center-btn {
-  width: 120px;
-  height: 50px;
-  flex-shrink: 0;
-  border-radius: 3px;
-  background: #3C93F0;
-  border: none;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-center .section6-center-left-left-center-btn a {
-  color: #FFF;
-  font-family: Gilroy;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-transform: uppercase;
-  font-family: "Roboto" sans-serif;
-  text-decoration: none;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-bottom {
-  padding-left: 30px;
-  width: 100%;
-  height: 30%;
-  border: 1px solid;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.section6 .section6-center .section6-center .section6-center-left .section6-center-left-left .section6-center-left-left-bottom img {
-  background-color: black;
-}
-.section6 .section6-center .section6-center .section6-center-right {
-  width: 35%;
-  height: 100%;
-  border: 1px solid;
 }
 
 /*# sourceMappingURL=main.css.map */
